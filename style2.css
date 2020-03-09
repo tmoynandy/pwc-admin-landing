@@ -9,7 +9,8 @@ input[type="number"]:focus,
 }
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #680000 !important;
+    background: linear-gradient(180deg, #680000 0%, #992720 46.78%, #9C372A 100%) !important;
+    margin-top: 20px;
 }
 
 .btn-primary:focus,
@@ -39,4 +40,18 @@ input[type="number"]:focus,
   font-weight: bold;
   letter-spacing: 0.31px;
   line-height: 21px;
+}
+
+.card{
+  height : 187px;
+}
+
+.card-body{
+  padding-left: 131px;
+}
+
+.btn-create-hierarchy{
+  height: 40px;
+  width: 220px;
+  border-radius: 5px;
 }

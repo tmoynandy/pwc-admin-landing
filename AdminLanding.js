@@ -26,7 +26,7 @@ class AdminLanding extends Component {
             <div class="card">
               <div class="card-body">
               <p className = "metadata-upload">Create Hierarchy</p>
-                <button className="btn btn-primary" onClick={this.HandleClick}>Create </button>
+                <button className="btn btn-primary btn-create-hierarchy" onClick={this.HandleClick}>Create </button>
               </div>
             </div>
 
